@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Profile Card Component
 
-## Getting Started
+![Profile Card Component](https://github.com/user-attachments/assets/a43465b9-4ec2-4b81-9bab-48c88ef156b6)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to the Profile Card Component project! This sleek, interactive Next.js application showcases a modern profile card with dynamic content and eye-catching animations. Perfect for developers looking to spice up their portfolio or create engaging user profiles.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Experience the Profile Card Component in action! Visit our live demo to see all the features and animations:
 
-## Learn More
+[**View Live Demo**](https://nickygees-profile-card.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to interact with the component and explore its responsive design. This demo showcases the power and flexibility of the Profile Card Component in a real-world setting.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Interactive 3D Tilt Effect**: Engage users with a responsive card that reacts to mouse movement.
+- **Dynamic GitHub Stats**: Display real-time GitHub statistics.
+- **Experience Visualizer**: Showcase professional experience with animated progress bars.
+- **Terminal Animation**: Add a tech-savvy touch with a simulated terminal output.
+- **Responsive Design**: Looks great on devices of all sizes.
 
-## Deploy on Vercel
+## 🧩 Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The Profile Card is composed of several modular components:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **ProfileCard**: The main wrapper component.
+2. **TotalExperience**: Visualizes years of experience in different fields.
+3. **GitHubStats**: Fetches and displays GitHub user statistics.
+4. **TerminalAnimation**: Simulates a terminal with typing animation.
+5. **Details**: Additional information about the profile.
+
+## 🛠️ Technologies Used
+
+This project is built with modern web technologies to ensure high performance, scalability, and developer-friendly experience:
+
+- **[React](https://reactjs.org/)**: A JavaScript library for building user interfaces
+  - Enables the creation of reusable UI components
+  - Provides a robust ecosystem and community support
+
+- **[Next.js](https://nextjs.org/)**: The React Framework for Production
+  - Offers server-side rendering and static site generation
+  - Provides built-in routing and API routes
+  - Enables easy deployment and scaling
+
+- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework
+  - Allows for rapid UI development with pre-built classes
+  - Highly customizable and optimized for production builds
+  - Integrates seamlessly with React and Next.js projects
+ 
+  - **[Framer Motion](https://www.framer.com/motion/)**: A production-ready motion library for React
+  - Powers smooth animations and interactive UI elements
+  - Provides a simple API for complex motion design
+  - Enhances user experience with fluid transitions and gestures
+
+## 🚀 Getting Started
+
+This project is built with [Next.js](https://nextjs.org/), offering a smooth development experience and optimal performance.
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/profile-card-component.git
+   cd profile-card-component ```
+2. Install Dependancies (npm i) or:
+   ```bash
+   npm install
+   npm install @fortawesome/fontawesome-svg-core \
+   npm install @fortawesome/free-brands-svg-icons \
+   npm install @fortawesome/free-regular-svg-icons \
+   npm install @fortawesome/free-solid-svg-icons \
+   npm install @fortawesome/react-fontawesome \
+   npm install @radix-ui/react-hover-card \
+   npm install  clsx \
+   npm install framer-motion \
+   npm install lucide-react \
+   npm install  next \
+   npm install  qss \
+   npm install   react \
+   npm install   react-dom \
+   npm install  react-syntax-highlighter \
+   npm install  tailwind-merge ```
