@@ -70,7 +70,8 @@ This project is built with [Next.js](https://nextjs.org/), offering a smooth dev
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/profile-card-component.git
-   cd profile-card-component ```
+   cd profile-card-component
+   
 2. Install Dependancies (npm i) or:
    ```bash
    npm install
@@ -88,4 +89,4 @@ This project is built with [Next.js](https://nextjs.org/), offering a smooth dev
    npm install   react \
    npm install   react-dom \
    npm install  react-syntax-highlighter \
-   npm install  tailwind-merge ```
+   npm install  tailwind-merge
