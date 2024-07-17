@@ -1,4 +1,5 @@
 # Profile Card Component
+[**View Live Demo**](https://nickygees-profile-card.vercel.app/)
 
 ![Profile Card Component](https://github.com/user-attachments/assets/a43465b9-4ec2-4b81-9bab-48c88ef156b6)
 
@@ -75,18 +76,18 @@ This project is built with [Next.js](https://nextjs.org/), offering a smooth dev
 2. Install Dependancies (npm i) or:
    ```bash
    npm install
-   npm install @fortawesome/fontawesome-svg-core \
-   npm install @fortawesome/free-brands-svg-icons \
-   npm install @fortawesome/free-regular-svg-icons \
-   npm install @fortawesome/free-solid-svg-icons \
-   npm install @fortawesome/react-fontawesome \
-   npm install @radix-ui/react-hover-card \
-   npm install  clsx \
-   npm install framer-motion \
-   npm install lucide-react \
-   npm install  next \
-   npm install  qss \
-   npm install   react \
-   npm install   react-dom \
-   npm install  react-syntax-highlighter \
+   npm install @fortawesome/fontawesome-svg-core
+   npm install @fortawesome/free-brands-svg-icons
+   npm install @fortawesome/free-regular-svg-icons
+   npm install @fortawesome/free-solid-svg-icons
+   npm install @fortawesome/react-fontawesome
+   npm install @radix-ui/react-hover-card
+   npm install  clsx
+   npm install framer-motion
+   npm install lucide-react
+   npm install  next
+   npm install  qss
+   npm install   react
+   npm install   react-dom
+   npm install  react-syntax-highlighter
    npm install  tailwind-merge
