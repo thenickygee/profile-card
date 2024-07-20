@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .glow {
+    @apply text-green-400 bg-black; /* Set text color and background */
+    text-shadow: 0 0 10px #10b981, 0 0 20px #10b981, 0 0 30px #10b981; /* Custom text shadow for green glow effect */
+    animation: pulsate 1s ease-out infinite; /* Pulsating animation */
+  }
+
+  @keyframes pulsate {
+    0% {
+      text-shadow: 0 0 10px #10b981, 0 0 20px #10b981, 0 0 30px #10b981;
+    }
+    50% {
+      text-shadow: 0 0 15px #10b981, 0 0 25px #10b981, 0 0 35px #10b981;
+    }
+    100% {
+      text-shadow: 0 0 10px #10b981, 0 0 20px #10b981, 0 0 30px #10b981;
+    }
+  }
+}
