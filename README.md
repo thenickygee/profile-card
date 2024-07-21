@@ -1,7 +1,7 @@
 # Profile Card Component
 [**View Live Demo**](https://nickygees-profile-card.vercel.app/)
 
-![Profile Card Component](https://github.com/user-attachments/assets/a43465b9-4ec2-4b81-9bab-48c88ef156b6)
+![Profile Card Component](https://github.com/user-attachments/assets/9dde25e9-6c94-4f77-ab6e-cf04bd2a8bea)
 
 
 ## 🌟 Overview
