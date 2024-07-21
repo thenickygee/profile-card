@@ -58,9 +58,9 @@ const GitHubStats = ({ username }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.4 }}
-      className='flex bg-zinc-950 border-2 border-zinc-900 rounded-xl'
+      className='flex flex-col sm:flex-row bg-zinc-950 border-2 border-zinc-900 rounded-xl'
     >
-      <div className='flex flex-col items-center justify-center w-1/2 px-4'>
+      <div className='flex flex-col items-center justify-center pt-2 sm:pt-0 w-full sm:w-1/2 px-4'>
         <FontAwesomeIcon
           icon={faGithubAlt}
           className='mr-2 w-6 h-6 text-zinc-200'
