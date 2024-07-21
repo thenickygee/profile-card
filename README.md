@@ -52,7 +52,7 @@ This project is built with modern web technologies to ensure high performance, s
   - Highly customizable and optimized for production builds
   - Integrates seamlessly with React and Next.js projects
  
-  - **[Framer Motion](https://www.framer.com/motion/)**: A production-ready motion library for React
+- **[Framer Motion](https://www.framer.com/motion/)**: A production-ready motion library for React
   - Powers smooth animations and interactive UI elements
   - Provides a simple API for complex motion design
   - Enhances user experience with fluid transitions and gestures
@@ -69,10 +69,19 @@ This project is built with [Next.js](https://nextjs.org/), offering a smooth dev
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/profile-card-component.git
-   cd profile-card-component
    
+   https:
+   ```bash
+   git clone https://github.com/thenickygee/profile-card.git
+   cd profile-card-component
+   ```
+
+   ssh:
+   ```bash
+   git clone git@github.com:thenickygee/profile-card.git
+   cd profile-card-component
+   ```
+
 2. Install Dependancies (npm i) or:
    ```bash
    npm install
@@ -91,3 +100,11 @@ This project is built with [Next.js](https://nextjs.org/), offering a smooth dev
    npm install   react-dom
    npm install  react-syntax-highlighter
    npm install  tailwind-merge
+
+3. Run Development Environemnt
+   ``` bash
+   npm run dev
+   ```
+
+4. View site
+   'http://localhost:3000'
