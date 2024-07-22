@@ -142,9 +142,9 @@ const ProfileCard = () => {
             </div>
           </div>
         </div>
-        <TotalExperienceComponent />
-        <GitHubStats username='thenickygee' />
         <TerminalAnimation />
+        <GitHubStats username='thenickygee' />
+        <TotalExperienceComponent />
         <ImageModal
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
